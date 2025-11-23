@@ -19,7 +19,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed w-full z-50 shadow-md">
-      {/* 🔶 Top Orange Strip */}
+      {/*  Top Orange Strip */}
       <div className="bg-gradient-to-r from-orange-500 to-orange-600 text-white text-[10px] sm:text-sm font-medium">
         <div className="max-w-7xl mx-auto flex justify-center px-2 py-1">
           <div className="flex gap-3 sm:gap-6 text-center">
@@ -38,7 +38,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* 🔶 Main Navbar */}
+      {/*  Main Navbar */}
       <div className="backdrop-blur-md bg-white/90">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0">
           <div className="flex justify-between h-16 items-center">
@@ -105,7 +105,7 @@ export default function Navbar() {
 
       {/* Our Network */}
       <Link
-        href="/about/our-network"
+        href="/aboutUs/our-network"
         className="block px-4 py-2 text-gray-700 hover:bg-orange-100 hover:text-orange-600"
       >
         Our Network
