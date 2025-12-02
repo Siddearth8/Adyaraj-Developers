@@ -65,3 +65,73 @@ const HeroSlider = () => (
 export default HeroSlider;
 
 
+// components/HeroSection.js
+
+// components/HeroSection.js
+
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
+
+// const HeroSlider = () => (
+//   <section className="relative h-screen flex items-center justify-center overflow-hidden">
+//     <div
+//       className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+//       style={{
+//         backgroundImage: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://readdy.ai/api/search-image?query=Bridge%20and%20flyover%20construction%2C%20highway%20infrastructure%20development%2C%20concrete%20bridge%20construction%2C%20government%20road%20project%2C%20heavy%20construction%20machinery%2C%20professional%20engineering%20work%2C%20modern%20infrastructure%20development%2C%20construction%20site%20photography&width=1920&height=1080&seq=hero-construction-4&orientation=landscape')`,
+//         opacity: 1, transform: 'scale(0.99)'
+//       }}
+//     />
+
+//     {/* ----- HERO CONTENT ----- */}
+//     <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 text-center text-white w-full relative z-10">
+//       <h1 className="text-6xl md:text-8xl font-bold mb-8 leading-tight">
+//         <span className="block">Roads & Bridges</span>
+//         <span className="text-orange-400 block">Construction</span>
+//       </h1>
+
+//       <p className="text-xl md:text-2xl mb-12 max-w-4xl mx-auto leading-relaxed">
+//         Building critical transportation infrastructure connecting communities.
+//       </p>
+//     </div>
+
+//     {/* ----- BOTTOM INDICATOR DOTS ----- */}
+//     <div className="absolute bottom-8 left-12 flex space-x-3 z-20">
+//       <button className="w-4 h-4 rounded-full bg-orange-500 scale-125 shadow-orange-400/60 shadow-lg" />
+//       <button className="w-4 h-4 rounded-full bg-white/50 hover:bg-white/75" />
+//       <button className="w-4 h-4 rounded-full bg-white/50 hover:bg-white/75" />
+//     </div>
+
+//     {/* ----- ARROWS WITH HOVER ROTATION ----- */}
+//     <button
+//       className="
+//         absolute left-8 top-12 w-12 h-12
+//         bg-white/20 hover:bg-white/30
+//         rounded-full flex items-center justify-center
+//         text-white border border-white/30 backdrop-blur-sm
+//         cursor-pointer z-20 transition-all duration-300
+//         group
+//       "
+//     >
+//       <i
+//         className="ri-arrow-up-line text-xl transition-transform duration-300 group-hover:rotate-180"
+//       />
+//     </button>
+
+//     <button
+//       className="
+//         absolute right-8 top-12 w-12 h-12
+//         bg-white/20 hover:bg-white/30
+//         rounded-full flex items-center justify-center
+//         text-white border border-white/30 backdrop-blur-sm
+//         cursor-pointer z-20 transition-all duration-300
+//         group
+//       "
+//     >
+//       <i
+//         className="ri-arrow-up-line text-xl transition-transform duration-300 group-hover:rotate-180"
+//       />
+//     </button>
+//   </section>
+// );
+
+// export default HeroSlider;
